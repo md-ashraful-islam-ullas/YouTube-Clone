@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="icon" type="image/svg" href="channel-picture/favicon.png" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-button">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-pic" src="channel-picture/me.jpg" alt="" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div>Original</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <div class="navbar">
+      <button class="nav-item active">All</button>
+      <button class="nav-item">Music</button>
+      <button class="nav-item">Podcasts</button>
+      <button class="nav-item">Computer Programming</button>
+      <button class="nav-item">Web Development</button>
+      <button class="nav-item">Manchester United</button>
+      <button class="nav-item">Premier League</button>
+      <button class="nav-item">Pop Music</button>
+      <button class="nav-item">Coding</button>
+      <button class="nav-item">Live</button>
+      <button class="nav-item">Scripting language</button>
+      <button class="nav-item">Mixes</button>
+      <button class="nav-item">Tourist Destination</button>
+      <button class="nav-item">Recently uploaded</button>
+      <button class="nav-item">Reading</button>
+    </div>
+
+    <main>
+      <section class="container">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=l3fTZbXfVDc">
+              <img class="thumbnail" src="thumbnails/Friends.avif" alt="" />
+            </a>
+            <div class="video-time">34:01</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Friends">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/friends_profile.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a
+                  href="https://www.youtube.com/watch?v=l3fTZbXfVDc"
+                  class="video-link"
+                >
+                  The Ones About Money | Friends
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@Friends" class="channel-link"> Friends </a>
+              </p>
+              <p class="video-stats">155K views &#183; 10 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Cf9ahZB9yfY">
+              <img class="thumbnail" src="thumbnails/Mr-Ballen.avif" alt="" />
+            </a>
+            <div class="video-time">28:18</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MrBallen">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/mr_ballen_profile.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=Cf9ahZB9yfY" class="video-link">
+                  Top 3 SCARIEST stalkers in the wild | Missing 411 (Part 17)
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@MrBallen" class="channel-link">MrBallen</a>
+              </p>
+              <p class="video-stats">12M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=q-wS0joITnY">
+              <img class="thumbnail" src="thumbnails/Outdoor-boys.avif" alt="" />
+            </a>
+            <div class="video-time">16:28</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@OutdoorBoys">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/outdoor_boys.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=q-wS0joITnY" class="video-link">
+                  Camping in Log Cabin that I Built by Hand - Campfire Cooking &
+                  Bushcraft Projects
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@OutdoorBoys" class="channel-link">Outdoor Boys</a>
+              </p>
+              <p class="video-stats">6.7M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=BJatgOiiht4">
+              <img class="thumbnail" src="thumbnails/Forest-nights.avif" alt="" />
+            </a>
+            <div class="video-time">23:09</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@fknight">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/forest_nights.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=BJatgOiiht4" class="video-link">
+                  7 Design Patterns EVERY Developer Should Know
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@fknight" class="channel-link">ForestKnight</a>
+              </p>
+              <p class="video-stats">1M views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=st_Ah6Ykbh4">
+              <img class="thumbnail" src="thumbnails/zenn.avif" alt="" />
+            </a>
+            <div class="video-time">8:32</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Zenn0009">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/zenn.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=st_Ah6Ykbh4" class="video-link">What Did Ancient Human Do at Night?</a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@Zenn0009" class="channel-link">Zenn</a>
+              </p>
+              <p class="video-stats">5.4M views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Pqi5Ma7leRM">
+              <img class="thumbnail" src="thumbnails/sunderlands.avif" alt="" />
+            </a>
+            <div class="video-time">11:17</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SunderlandAFC">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/sunderland.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=Pqi5Ma7leRM" class="video-link">
+                  Extended Premier League Highlights | Sunderland AFC 0 - 5
+                  Nottingham Forest
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@SunderlandAFC" class="channel-link">Sunderland AFC</a>
+              </p>
+              <p class="video-stats">547K views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=iGFN-wnbQWE">
+              <img
+                class="thumbnail"
+                src="thumbnails/scary-intresting.avif"
+                alt=""
+              />
+            </a>
+            <div class="video-time">20:12</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@ScaryInteresting">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/scary-intresting.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=iGFN-wnbQWE" class="video-link">
+                  The Most Disturbing Unsolved Disappearances
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@ScaryInteresting" class="channel-link">Scary Interesting</a>
+              </p>
+              <p class="video-stats">810K views &#183; 9 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=OQBvSQhkehs">
+              <img class="thumbnail" src="thumbnails/neuralnines.avif" alt="" />
+            </a>
+            <div class="video-time">26:53</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@NeuralNine">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/neuralnines.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=OQBvSQhkehs" class="video-link">
+                  yfinance Crash Course: Financial Programming in Python
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@NeuralNine" class="channel-link">NeuralNine</a>
+              </p>
+              <p class="video-stats">4.8K views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Pw-0pbY9JeU&list=RDPw-0pbY9JeU&start_radio=1">
+              <img
+                class="thumbnail"
+                src="thumbnails/twenty-one-pilots.avif"
+                alt=""
+              />
+            </a>
+            <div class="video-time">3:36</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/twenty-one-pilots.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=Pw-0pbY9JeU&list=RDPw-0pbY9JeU&start_radio=1" class="video-link">
+                  twenty one pilots - Ride (Official Video)
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw" class="channel-link">twenty one pilots</a>
+              </p>
+              <p class="video-stats">1.6 views &#183; 10 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=wdWHbYdhfG8&t=17s">
+              <img class="thumbnail" src="thumbnails/steve-brunton.avif" alt="" />
+            </a>
+            <div class="video-time">15:17</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Eigensteve">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/steve-brunton.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=wdWHbYdhfG8&t=17s" class="video-link">
+                  Bayesian Linear Regression and Maximum a Posteriori (MAP)
+                  Estimate
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@Eigensteve" class="channel-link">Steve Brunton</a>
+              </p>
+              <p class="video-stats">4.4K views &#183; 3 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=p2IadviOZf8">
+              <img class="thumbnail" src="thumbnails/tedx-talks.avif" alt="" />
+            </a>
+            <div class="video-time">14:17</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TEDx">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/tedx-talks.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=p2IadviOZf8" class="video-link">
+                  I Lived in a Mars simulation-here's what I learned | Mackenzie
+                  Calle | TEDxTallian
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@TEDx" class="channel-link">TEDx Talks</a>
+              </p>
+              <p class="video-stats">10K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=kqj22mWIdjU">
+              <img
+                class="thumbnail"
+                src="thumbnails/IBM-technology.avif"
+                alt=""
+              />
+            </a>
+            <div class="video-time">9:59</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@IBMTechnology">
+                <img
+                  class="profile-picture"
+                  src="channel-picture/IBM-technology.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=kqj22mWIdjU" class="video-link">
+                  Building a Team of AI Agents: Roles, Feedback, & Teamwork
+                  Explained
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@IBMTechnology" class="channel-link">IBM Technology</a>
+              </p>
+              <p class="video-stats">32K views &#183; 6 days ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
