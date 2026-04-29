@@ -60,6 +60,7 @@ This is a YouTube clone built using HTML and CSS. It replicates the core UI of Y
 
 ## Folder Structure
 
+```
 youtube-clone/
 ├── channel-picture/      # User/Channel profile images
 ├── icons/                # SVG or PNG icons for buttons/UI
@@ -71,7 +72,7 @@ youtube-clone/
 ├── thumbnails/           # Preview images for the video list
 ├── index.html            # Main entry point
 └── README.md             # Project documentation
-
+```
 ---
 
 ## How to Run Locally
